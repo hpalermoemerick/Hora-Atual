@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-color: beige;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center;
+    /* background-clip: text;
+    color: transparent;
+    background-image: url("../img/fundo.jpg"); */
+}
+
+body > div > h1{
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+}
